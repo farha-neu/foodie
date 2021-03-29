@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     foodie (0.1.1)
-      activesupport (~> 4.2.0)
+      activesupport
 
 GEM
   remote: https://rubygems.org/
@@ -65,4 +65,4 @@ DEPENDENCIES
   rubocop (~> 0.80)
 
 BUNDLED WITH
-  2.1.4
+   2.2.3

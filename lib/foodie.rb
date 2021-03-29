@@ -3,11 +3,9 @@
 require_relative "foodie/version"
 
 module Foodie
-  def leftpad(chars, filler = ' ')
-    self.rjust(chars, filler)
+  class WhoIs
+    def self.awesome?
+      puts "YOU ARE AWESOME!!"
+    end
   end
-end
-
-class String
-  include Foodie
 end
